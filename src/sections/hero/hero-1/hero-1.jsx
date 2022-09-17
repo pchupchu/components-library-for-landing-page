@@ -9,6 +9,5 @@ function Hero1() {
       <div className="hero-1__subtitle">It's me</div>
     </div>
   );
-}
-
+ 
 export default Hero1;

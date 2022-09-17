@@ -1,10 +1,17 @@
+.hero-1{
+    background-color: #E4E3ED;
+}
+
+
 .hero-1__title {
-  color: red;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 700;
-}
-.hero-1__subtitle {
-  color: green;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-}
+    color: red;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .hero-1__subtitle {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
