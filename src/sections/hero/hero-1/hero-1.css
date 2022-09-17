@@ -1,10 +1,16 @@
+.hero-1 {
+  background-color: #e4e3ed;
+}
+
 .hero-1__title {
   color: red;
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
+  font-size: 24px;
+  font-weight: 700;
 }
 .hero-1__subtitle {
-  color: green;
+  color: blue;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }

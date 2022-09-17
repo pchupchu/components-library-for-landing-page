@@ -10,6 +10,5 @@ function Hero1() {
       <div className="hero-1__description">Content</div>
     </div>
   );
-}
-
+ 
 export default Hero1;
