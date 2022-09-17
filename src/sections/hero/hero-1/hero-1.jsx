@@ -10,5 +10,6 @@ function Hero1() {
       <div className="hero-1__description">Content about me</div>
     </div>
   );
- 
+}
+
 export default Hero1;
