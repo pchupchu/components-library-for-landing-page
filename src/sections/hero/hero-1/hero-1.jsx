@@ -5,9 +5,14 @@ function Hero1() {
   return (
     <div className="hero-1">
         {/* Here you can write your markup */}
-        <div className='hero-1__title'>Hello World</div>
+        <p className='hero-1__logo-name'>Startup 3</p>
+        <h1 className='hero-1__title'>Startup framework</h1>
     </div>
   )
 }
 
 export default Hero1
+
+
+
+
