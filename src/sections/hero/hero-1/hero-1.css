@@ -1,22 +1,120 @@
 .hero-1 {
   background-color: #e4e3ed;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-1__logo {
+  color: #1E0E62;
+  position: absolute;
+  left: 117px;
+  top: 65px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
 }
 
 .hero-1__title {
-  color: red;
+  color: #1E0E62;
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
-  font-size: 24px;
-  font-weight: 700;
-}
-.hero-1__subtitle {
-  color: blue;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-size: 72px;
+  max-width: 770px;
+  text-align: center;
+  margin: 189px auto 37.8px;
 }
 
-.hero-1__description {
-  color: green;
+.hero-1__subtitle {
+  color: #1E0E62;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(21, 20, 57, 0.4);
+  max-width: 582px;
+  margin: 0 auto;
 }
+
+.hero-1__menu {
+  width: 769px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  top: 60px;
+  right: 110px;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-1__sign {
+  display: flex;
+  align-items: center;
+}
+
+.hero-1__links {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  margin: 0;
+}
+
+.hero-1__link {
+  text-decoration: none;
+  color: #15143966;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+.button {
+  background-color: #25DAC5;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_middle {
+  width: 100px;
+  height: 40px;
+}
+
+.button_big {
+  width: 300px;
+  height: 60px;
+  margin: 79.2px auto 17.2px;
+}
+
+.button__link {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button__link_middle {
+  font-size: 18px;
+}
+
+.button__link_big {
+  font-size: 20px;
+}
+
+.hero-1__link_big {
+  color: #25DAC5;
+  margin: 0 auto 108.8px;
+}
+
+/*.hero-1__description {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}*/
+
